@@ -1,8 +1,9 @@
-.grid{
-    width:606px;
+.grid {
+    width: 606px;
     height: 606px;
     display: flex;
     flex-wrap: wrap;
+    border: solid black 2px;
 }
 
 .square{
@@ -17,3 +18,42 @@
     background-size: 200px 200px;
     
 }
+.button {
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: darkseagreen;
+}
+.timer{
+
+
+    background-color: #ffffff;
+    font-family:Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: blink;
+    text-transform: none;
+    font-variant: small-caps;
+    color: #000000;
+}
+.score {
+    background-color: #ffffff;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: blink;
+    text-transform: none;
+    font-variant: small-caps;
+    color: #000000;
+}
+

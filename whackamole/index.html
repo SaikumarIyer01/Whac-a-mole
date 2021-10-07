@@ -6,26 +6,31 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>Your score:</h2>
-    <h2 id="score">0</h2>
-
-    <h2>Time left:</h2>
-    <h2 id="time-left">0</h2>
-
-
-    <div class="grid"> 
-        <div class="square" id="1" ></div>
-        <div class="square" id="2" ></div>
-        <div class="square mole" id="3" ></div>
-        <div class="square" id="4" ></div>
-        <div class="square" id="5" ></div>
-        <div class="square" id="6" ></div>
-        <div class="square" id="7" ></div>
-        <div class="square" id="8" ></div>
-        <div class="square" id="9" ></div>
-
+    <div class="wrapper" style="display:inline;">
+        <button class="button" onclick="moveMole()">Start game</button>
     </div>
-	
-	<script src="app.js"></script>
+    <div class="timer" style="display:inline;">
+
+        <h2 style="display:inline;">Time left:</h2>   <h2 id="time-left" style="display:inline;">0</h2>
+    </div>
+    <div class="grid">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+
+    <div class="score">
+
+        <h2 style="display:inline;">Your score:</h2> <h2 style="display:inline;" id="score">0</h2>
+    </div>
+
+
+    <script src="app.js"></script>
 </body>
 </html>
