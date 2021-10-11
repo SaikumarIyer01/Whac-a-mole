@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     border: solid black 2px;
+    justify-content: center;
 }
 
 .square{
@@ -18,7 +19,7 @@
     background-size: 200px 200px;
     
 }
-.button {
+.start {
     font-family: Helvetica;
     font-size: 22px;
     font-style: normal;
@@ -31,6 +32,20 @@
     margin: 4px 2px;
     cursor: pointer;
     background-color: darkseagreen;
+}
+.stop {
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: orangered;
 }
 .timer{
 

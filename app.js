@@ -41,8 +41,13 @@ function start() {
     moveMole()
     countDownTimerID = setInterval(countDown, 1000)
 }
+function stop() {
+    clearInterval(countDownTimerID)
+    clearInterval(timerID)
+    countDownTimerID = currentTime = gamelength
+    alert('Game over, your final score is ' + result)
 
-
+}
 
 
 
@@ -51,11 +56,9 @@ function countDown(){
     currentTime--
     timeLeft.textContent=currentTime
 
-    if (currentTime==0){
-        clearInterval(countDownTimerID)
-        clearInterval(timerID)
-        countDownTimerID=currentTime=gamelength
-        alert('Game over, your final score is '+ result)
+    if (currentTime == 0) {
+        stop()
+        
     }
 }
 
