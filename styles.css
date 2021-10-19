@@ -5,6 +5,8 @@
     flex-wrap: wrap;
     border: solid black 2px;
     justify-content: center;
+    color: khaki;
+    background-color: #EADCA6;
 }
 
 .square{
@@ -47,11 +49,8 @@
     cursor: pointer;
     background-color: orangered;
 }
-.timer{
-
-
-    background-color: #ffffff;
-    font-family:Helvetica;
+.timer {
+    font-family: Helvetica;
     font-size: 22px;
     font-style: normal;
     font-weight: bold;
@@ -61,7 +60,6 @@
     color: #000000;
 }
 .score {
-    background-color: #ffffff;
     font-family: Helvetica;
     font-size: 22px;
     font-style: normal;
