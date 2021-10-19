@@ -46,11 +46,12 @@ function stop() {
     clearInterval(timerID)
     countDownTimerID = currentTime = gamelength
     alert('Game over, your final score is ' + result)
+    result = 0
+    score.textContent = result
+
+
 
 }
-
-
-
 
 function countDown(){
     currentTime--
